@@ -1,19 +1,13 @@
-body {
-	/*margin-top: 4%;*/
-	/*background-color: #2ba6cb;*/
-}
-
-.navt {
-	padding: 0px;
-}
-
-#navt {
-	background: #222;
-	padding: 0px;
-}
-
 .top-bar {
 	margin: 0px;
+}
+
+.top-bar, .top-bar a:hover, #navt {
+	background-color: #DFB447;
+}
+
+#navt, .navt {
+	padding: 0px;
 }
 
 section {
@@ -21,43 +15,46 @@ section {
 }
 
 #action {
-	background-color: #000000;
+	background-color: #D05E3C;
 	padding:8%;
 }
 
-h1 {color: #F7F7F7;}
-.subheader {color: white;}
-
-.button {margin-top: 2%;}
-
-#extras {
-	background-color: lightgrey;
+#action h1 {
+	color: #F7F7F7;
 }
 
-#instructions h3{
-	color: #595959;
+.subheader {
+	color: white;
 }
 
-#instructions p{
-	color: #595959;
+#features, #features * {
+	background-color: #CC414D;
+	color: white;
 }
 
-.counter{
-	color: #68B4E3;
-
+#extras, #extras * {
+	background-color: #8DC3D6;
+	color: white;
 }
 
-#examples {
-	background-color: white;	
+#platform {
+	background-color: #C4C946;
 }
 
-#examples h3, h4, h5{
-	color: #595959;
+.flat-panel {
+	margin: 5%;
+	padding: 10%;
+	background-color: #94B33A;
 }
 
-#end {
-	background-color: #2EA5E6;
-	padding: 2%;
+.flat-panel h2 {
+	float: left;
+	margin-right: 25px;
+}
+
+.flat-panel h2, h4, p {
+		color: white;
+		text-align: justify;
 }
 
 #aboutus {
@@ -65,31 +62,10 @@ h1 {color: #F7F7F7;}
 	padding: 2%;
 }
 
-#pricing {
-	/*background-color: #68B4E3;*/
-}
-
-#alert h1{
-	color: #68B4E3;
-}
-
-#alert {
-	background-color: #ecf8ff;
-	padding: 6%;
-}
-
-#alert .panel{
-	background-color: #3f3f3f;
-}
-
 footer {
 	background-color: #3f3f3f;
 }
 
-footer h6{
-	color: white;
-}
-
-footer p{
+footer p, h6 {
 	color: white;
 }
