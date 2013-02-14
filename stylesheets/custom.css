@@ -3,11 +3,15 @@
 }
 
 .top-bar, .top-bar a:hover, #navt {
-	background-color: #DFB447;
+	background-color: #EBE188;
 }
 
 #navt, .navt {
 	padding: 0px;
+}
+
+#navt ul * {
+	color: grey;
 }
 
 section {
