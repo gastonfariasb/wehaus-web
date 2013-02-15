@@ -1,6 +1,10 @@
 #navigation, .navigation-dummy {
 	background-color: rgb(231, 185, 0);
-	padding: 15px;
+	padding: 12px;
+}
+
+.navigation-dummy {
+	padding: 1.7%;
 }
 
 .navigation-dummy * {
