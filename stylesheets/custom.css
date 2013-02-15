@@ -18,9 +18,27 @@ section {
 	padding: 4%;
 }
 
-#action {
+#action, #small-image-hack {
 	background-color: #D05E3C;
-	padding:8%;
+	padding:6%;
+	position: relative;
+}
+
+#action .hack {
+	position: absolute;
+	max-width: 42%;
+	min-width: 300px;
+	bottom: 0%;
+}
+
+#small-image-hack {
+	padding: 0px;
+	margin: 0px;
+}
+
+#small-image-hack img {
+	position: relative;
+	max-width: 100%
 }
 
 #action h1 {
