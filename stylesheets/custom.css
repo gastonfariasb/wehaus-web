@@ -1,17 +1,15 @@
-.top-bar {
-	margin: 0px;
-}
-
-.top-bar, .top-bar a:hover, #navt {
+#navigation, .navigation-dummy {
 	background-color: rgb(231, 185, 0);
+	padding: 15px;
 }
 
-#navt, .navt {
-	padding: 0px;
-}
-
-#navt ul * {
+.navigation-dummy * {
 	color: white;
+}
+
+#navigation * {
+	color: white;
+	text-align:center;
 }
 
 section {
