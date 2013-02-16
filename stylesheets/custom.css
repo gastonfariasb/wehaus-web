@@ -65,6 +65,12 @@ section {
 	background-color: #C4C946;
 }
 
+#product	 {
+	background-color: #841F6E;
+	color: white;
+}
+
+
 .flat-panel {
 	margin: 5%;
 	padding: 10%;
