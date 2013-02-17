@@ -20,6 +20,10 @@ section {
 	padding: 4%;
 }
 
+.nav-section {
+	padding-top: 10%;
+}
+
 #action, #small-image-hack {
 	background-color: #D05E3C;
 	padding:6%;
