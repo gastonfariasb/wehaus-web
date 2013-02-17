@@ -7,21 +7,21 @@
 	padding: 1.7%;
 }
 
-.navigation-dummy * {
-	color: white;
+.navigation-dummy *, #navigation * {
+	color: #FFF0C7;
 }
 
 #navigation * {
-	color: white;
 	text-align:center;
 }
 
 section {
-	padding: 4%;
+	padding: 8%;
 }
 
 .nav-section {
-	padding-top: 10%;
+	/*More padding to accomodate nav-bar*/
+	padding-top: 12%;
 }
 
 #action, #small-image-hack {
@@ -60,25 +60,45 @@ section {
 	color: white;
 }
 
+#features .columns {
+	/*padding-top: 5%;*/
+	/*padding-bottom: 5%;*/
+}
+
 #extras, #extras * {
 	background-color: #8DC3D6;
 	color: white;
+}
+
+#extras h3 {
+	/*text-transform: uppercase;*/
 }
 
 #platform {
 	background-color: #C4C946;
 }
 
-#product	 {
+#platform h3 {
+	/*text-transform: uppercase;*/
+}
+
+#product {
 	background-color: #841F6E;
 	color: white;
 }
 
+#product form {
+	padding-top: 4%;
+}
+
+#product * {
+	color: white
+}
+
 
 .flat-panel {
-	margin: 5%;
-	padding: 10%;
-	background-color: #94B33A;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .flat-panel h2 {
@@ -86,9 +106,13 @@ section {
 	margin-right: 25px;
 }
 
-.flat-panel h2, h4, p {
+.flat-panel h2, h3, p {
 		color: white;
 		text-align: justify;
+}
+
+#product {
+	background-color: #94B33A;
 }
 
 #aboutus {
