@@ -92,7 +92,7 @@ section {
 	padding-top: 4%;
 }
 
-#product * {
+#product p, h3 {
 	color: white
 }
 
