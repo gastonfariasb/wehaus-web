@@ -1,6 +1,7 @@
 #navigation, .navigation-dummy {
 	background-color: rgb(231, 185, 0);
-	padding: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 .navigation-dummy {
@@ -17,19 +18,22 @@
 }
 
 section {
-	padding: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
 }
 
 #action, #small-image-hack {
 	background-color: #D05E3C;
-	padding:6%;
+	padding-top:6%;
+	padding-bottom:6%;
 	position: relative;
 }
 
-#action .hack {
+#action .image-hack {
 	position: absolute;
 	max-width: 42%;
 	min-width: 300px;
+	left: 6%;
 	bottom: 0%;
 }
 
@@ -56,8 +60,11 @@ section {
 	color: white;
 }
 
-#extras, #extras * {
+#extras {
 	background-color: #8DC3D6;
+}
+
+#extras * {
 	color: white;
 }
 
@@ -70,6 +77,23 @@ section {
 	color: white;
 }
 
+#product ul {
+	list-style-type:none;
+}
+
+label {
+	/*Mimicks h5*/
+	font-size: 17px;
+	font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color: #222;
+	text-rendering: optimizeLegibility;
+	line-height: 1.1;
+	margin-bottom: 14px;
+	margin-top: 14px;
+	color: white;
+}
 
 .flat-panel {
 	margin: 5%;
@@ -89,7 +113,8 @@ section {
 
 #aboutus {
 	background-color: #3f3f3f;
-	padding: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 footer {
@@ -98,6 +123,10 @@ footer {
 
 footer p, h6 {
 	color: white;
+}
+
+img.lan_flag {
+	vertical-align: middle;
 }
 
 
