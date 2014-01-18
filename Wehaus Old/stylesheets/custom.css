@@ -22,14 +22,18 @@ section {
 	padding-bottom: 4%;
 }
 
+#action { 
+background: url(../images/wehausnew/blurry3.png);
+}
+
 #action, #small-image-hack {
-	background-color: #3498db;
 	padding-top:6%;
 	padding-bottom:6%;
-	position: relative;
+	position: relative;	
 }
 
 #action .image-hack {
+	
 	position: absolute;
 	max-width: 42%;
 	min-width: 300px;
@@ -40,6 +44,7 @@ section {
 #small-image-hack {
 	padding: 0px;
 	margin: 0px;
+	background: url(../images/wehausnew/blurry3.png);
 }
 
 #small-image-hack img {
@@ -132,11 +137,11 @@ img.lan_flag {
 
 
 w1 { 
-	font-family: 'ABeeZee', sans-serif; font-size:80px; color: white; 
+	font-family: 'ABeeZee', sans-serif; font-size:80px; text-shadow: 3px 3px 0px rgba(0,0,0,0.2); color: white; 
 }
 
 w2 { 
-	font-family: 'ABeeZee', sans-serif; font-size:40px; color: white; 
+	font-family: 'ABeeZee', sans-serif; font-size:40px; text-shadow: 3px 3px 0px rgba(0,0,0,0.2); color: white; 
 }
 
 .video-container {
@@ -156,3 +161,4 @@ w2 {
 	width: 100%;
 	height: 100%;
 }
+
